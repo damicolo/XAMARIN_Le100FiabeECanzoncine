@@ -12,12 +12,16 @@ namespace FiabeSenzaTempo
 	public class FavoleListViewAdapter :BaseAdapter<videoItem>
 	{
 		private List<videoItem> m_theVideos = new List<videoItem>();
-
 		private Context m_context;
-		public FavoleListViewAdapter (Context context, List<videoItem> theVideos)
+		private View ThisRow;
+		private ImageView theImage;
+		private ListView m_theListView;
+
+		public FavoleListViewAdapter (Context context, List<videoItem> theVideos, ListView theListView)
 		{
 			m_context = context;
 			m_theVideos = theVideos;
+			m_theListView = theListView;
 		}
 		#region implemented abstract members of BaseAdapter
 
@@ -28,19 +32,20 @@ namespace FiabeSenzaTempo
 			
 		public override Android.Views.View GetView (int position, View convertView, Android.Views.ViewGroup parent)
 		{
-			View row = convertView;
-			if (row == null) {
-				row = LayoutInflater.From(m_context).Inflate(Resource.Layout.FavoleListeViewItem,null,false);
+			ThisRow = convertView;
+			if (ThisRow == null) {
+				ThisRow = LayoutInflater.From(m_context).Inflate(Resource.Layout.FavoleListeViewItem,null,false);
 			}
-			TextView theTitle = (TextView)row.FindViewById (Resource.Id.textViewTitle);
+			TextView theTitle = (TextView)ThisRow.FindViewById (Resource.Id.textViewTitle);
 			theTitle.Text = m_theVideos [position].Title.ToUpper();
+			theTitle.Click += (sender, args) => m_theListView.PerformItemClick(ThisRow, position, GetItemId(position));
 
-			ImageView theImage = row.FindViewById<ImageView>(Resource.Id.imageViewTitle);
+			theImage = ThisRow.FindViewById<ImageView>(Resource.Id.imageViewTitle);
 			theImage.SetImageBitmap(m_theVideos [position].Image);
 
-			return row;	
+			return ThisRow;	
 		}
-
+			
 		public override int Count {
 			get {
 				return m_theVideos.Count;

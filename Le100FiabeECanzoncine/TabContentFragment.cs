@@ -50,7 +50,7 @@ namespace FiabeSenzaTempo
 
 			// set the list and adapter
 			m_myList = (ListView)m_theView.FindViewById (Resource.Id.myListView);
-			m_adapter = new FavoleListViewAdapter (m_theView.Context, m_theVideos );
+			m_adapter = new FavoleListViewAdapter (m_theView.Context, m_theVideos, m_myList);
 			m_myList.Adapter = m_adapter;
 			m_myList.ItemClick += M_myList_ItemClick;
 

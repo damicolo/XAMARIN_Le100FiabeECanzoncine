@@ -19,12 +19,12 @@ using Java.IO;
 
 namespace FiabeSenzaTempo
 {
-	[Activity (Label = "Le 100 Fiabe e Canzoncine", MainLauncher = true, Icon = "@drawable/favolesenzatempo", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
+	[Activity (Label = "Le 100 Fiabe e Canzoncine", MainLauncher = true, Icon = "@drawable/AppIcon", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
-		private const string m_playlist = "http://damicolo1.azurewebsites.net/100FiabeECanzoncine/FavoleSenzaTempoYoutube.txt";
-		private ListView m_myList;
-		private FavoleListViewAdapter m_adapter;
+		private const string m_playlist = "http://damicolo1.azurewebsites.net/100FiabeECanzoncine/100FiabeECanzoncine.txt";
+		//private ListView m_myList;
+		//private FavoleListViewAdapter m_adapter;
 		public static List<videoItem> m_theVideos = new List<videoItem>();
 
 		protected override async void OnCreate (Bundle bundle)
@@ -43,12 +43,12 @@ namespace FiabeSenzaTempo
 			string theFileList = "";
 			try{
 				theFileList = httpclient.DownloadString (m_playlist);
-				theFileList = theFileList.Replace ("\r\n", ",");
+				theFileList = theFileList.Replace ("\r\n", "^");
 			}
 			catch(Exception ex) {
 				System.Console.WriteLine (ex.ToString ());
 			}
-			string[] VideoList = theFileList.Split (new char[] { ','});
+			string[] VideoList = theFileList.Split (new char[] { '^'});
 			List<string> myData = new List<string> ();
 			foreach (string s in VideoList) {
 				if (s.StartsWith("#")) continue;
@@ -75,10 +75,10 @@ namespace FiabeSenzaTempo
 				
 
 
-			AddTab ("Fiabe", 0, Resource.Drawable.favolesenzatempo,  new TabContentFragment(0) );
-			AddTab ("Zecchino", 1, Resource.Drawable.favolesenzatempo,  new TabContentFragment(1) );
-			AddTab ("Canzoncine", 2, Resource.Drawable.favolesenzatempo,  new TabContentFragment(2) );
-			AddTab ("NinnaNanna", 3, Resource.Drawable.favolesenzatempo,  new TabContentFragment(3) );
+			AddTab ("Fiabe", 1, Resource.Drawable.favolesenzatempo,  new TabContentFragment(1) );
+			AddTab ("Zecchino", 2, Resource.Drawable.favolesenzatempo,  new TabContentFragment(2) );
+			AddTab ("Canzoncine", 3, Resource.Drawable.favolesenzatempo,  new TabContentFragment(3) );
+			AddTab ("NinnaNanna", 4, Resource.Drawable.favolesenzatempo,  new TabContentFragment(4) );
 
 
 

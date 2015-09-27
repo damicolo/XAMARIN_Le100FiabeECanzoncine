@@ -160,4 +160,7 @@
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\VideoResources.txt" />
+  </ItemGroup>
 </Project>

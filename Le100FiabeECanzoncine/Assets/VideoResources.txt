@@ -1,0 +1,91 @@
+﻿#
+#Fiabe
+#
+1;Cappuccetto Rosso, Il gatto con gli stivali, Biancanenve e i sette nani, Il lupo e i sette capretti, Aladino e la lampada, Cenerentola, Hansel e Gretel, La bella addormentata;http://www.youtube.com/watch?v=UKY7vW_-DiM;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/cappuccetto.jpg
+1;Il brutto anatroccolo, I tre porcellini, Ali Baba' e i quaranta ladroni, Pollicino, La bella e la bestia, Il soldatino di piombo, I sette corvi, Barba blu;http://www.youtube.com/watch?v=44l1_5GrVNs;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/bruttoanatroccolo.jpg
+1;Pelle d'asino, Gli abiti nuovi del granduca, I musicisti di Brema, Il piffero magico, Abu Ker e Abu Fir, Il pesciolino d'oro, I fiori della piccola Ida, La casa nella foresta;http://www.youtube.com/watch?v=zFyUJlLQbfg;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/musicanti.jpg
+1;I tre nanetti nel bosco, Il libricino magico, Il nano tremolino, I cigni selvatici, Sette in un colpo, Il principe rospo, Tre musicisti, L'acciarino magico;http://www.youtube.com/watch?v=rBnZAxSA43Y;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/rospo.jpg
+1;La piccola guardiana d'oche, Pollicina, Fata piumetta, L'uccello d'oro, Il tesoro dei tre fratelli, Giacomino e il fagiolo, Il pricipe kamar e la principessa Budur, Raperonzolo;http://www.youtube.com/watch?v=2NJLSluMISY;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/rapunzel.jpg
+1;Re mentone, L'usignolo, Il capriaio e la figlia del re, I tre capelli dell'orco, I tre cedri, Il serpe bianco, L'acqua della vita, La principessa incantata;http://www.youtube.com/watch?v=a2s0Av6W8gk;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/rementone.jpg
+#
+#zecchino
+#
+2;La tartaruga sprint;http://www.youtube.com/watch?v=PDwBq4AZTFU;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Torero Camomillo;http://www.youtube.com/watch?v=QupTJJmElco;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Il pulcino ballerino;http://www.youtube.com/watch?v=HDxy-UorXDY;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;La sveglia birichina;http://www.youtube.com/watch?v=RFsT-kLpgls;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Non lo faccio piu';http://www.youtube.com/watch?v=KUFsIivybPw;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il gatto puzzolone;http://www.youtube.com/watch?v=7fLrGHViNvU;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;44 Gatti;http://www.youtube.com/watch?v=UL6toX3fAuo;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Le Tagliatelle Di Nonna Pina;http://www.youtube.com/watch?v=HAzbZbjztbc;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il Katalicammello;http://www.youtube.com/watch?v=Mo1X0AmVzCA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Popoff;http://www.youtube.com/watch?v=wxcrF3ywAwM;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il topo Zorro;http://www.youtube.com/watch?v=MkydKPVfrsY;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Ho Visto Un Re;http://www.youtube.com/watch?v=C0LGh_eQRHk;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Il Lungo Il Corto E Il Pacioccone;http://www.youtube.com/watch?v=VaE_0QVM93g;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Dagli una spinta;http://www.youtube.com/watch?v=bpxDJHczQqY;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Metti la canottiera;http://www.youtube.com/watch?v=5DvM-G1D_t8;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Un punto di vista strambo;http://www.youtube.com/watch?v=K2LOLmjPOlM;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Rokko cavallo brocco;http://www.youtube.com/watch?v=FmJVgUEL_kA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Il gatto mascherato;http://www.youtube.com/watch?v=B7eem3W2i8U;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;La lumaca Elisabetta;http://www.youtube.com/watch?v=6-Qic9EyWac;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;La Banda Sbanda;http://www.youtube.com/watch?v=wNrlT8mo02s;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;La Tarantella della Mozzarella;http://www.youtube.com/watch?v=s7OcC_FJpAA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Una forchetta chiamata Giulietta;http://www.youtube.com/watch?v=wCHRAJcghgA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;La torta di pere e cioccolato;http://www.youtube.com/watch?v=c9yKkvrB7q4;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Il pistolero;http://www.youtube.com/watch?v=wtC63t1kfJs;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Messer Galileo;http://www.youtube.com/watch?v=GlCxBZ21-Dg;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Ciribiricoccola;http://www.youtube.com/watch?v=YgwJGEyEOQA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il Cuoco Pasticcione;http://www.youtube.com/watch?v=xAm3UITX_kU;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il Bullo Citrullo;http://www.youtube.com/watch?v=tdUVppef4KU;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il Drago Raffreddato;http://www.youtube.com/watch?v=2Gjw5aqW010;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;L'Amico Mio Fantasma;http://www.youtube.com/watch?v=fneYSRMdglI;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Fammi crescere i denti davanti;http://www.youtube.com/watch?v=sCtOxzouHHA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Volevo un gatto Nero;http://www.youtube.com/watch?v=OejanHT5HxQ;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+2;Il caffe' della peppina;http://www.youtube.com/watch?v=4qNHLEs04TA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#2;Il coocodrillo come fa?;http://www.youtube.com/watch?v=mHXlgHptunQ;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#
+#canzoncine
+#
+#3;La Giungle degli animali;https://www.youtube.com/watch?v=mSm30seRYtk;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#3;Ciao Papa';https://www.youtube.com/watch?v=K3e2gSM_brQ;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;L'elefante si dondolava;https://www.youtube.com/watch?v=sKohBCDbj6Q;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Giro giro tondo;https://www.youtube.com/watch?v=2WiurH0u514;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Nella Vecchia Fattoria;https://www.youtube.com/watch?v=V9UZoIbTmCA;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#3;La bella Lavanderina;https://www.youtube.com/watch?v=-MbhlBdKPQY;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Se sei Felice;https://www.youtube.com/watch?v=8zdpyb1hFq4;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Fra' Martino Campanaro;https://www.youtube.com/watch?v=3uxtsaH5Xts;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;La Canzone dei Numeri 1 2 3;https://www.youtube.com/watch?v=9CfIE6edN5o;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Canzone dell'Alfabeto ABC;https://www.youtube.com/watch?v=XO9TZ2Y-96I;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Carletto;https://www.youtube.com/watch?v=OBaxvXZktjo;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Diamo la caccia al bruco;http://www.youtube.com/watch?v=SIrwBJYyvXM;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+3;Whisky Il Ragnetto;https://www.youtube.com/watch?v=8RDuDo3l4Ic;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#3;Il cowboy Piero;http://www.youtube.com/watch?v=99hn8NAjTLo;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#3;L'elefante con le ghette;https://www.youtube.com/watch?v=jhzDhmF189s;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/tartarugasprint.jpg
+#opzionali esterni
+3;La Canzone di Cappuccetto Rosso;http://www.youtube.com/watch?v=HAHc0HBPgN4
+#3;La Canzone delle vocali A E I O U;http://www.youtube.com/watch?v=4RGi7fGXpdE
+#3;Il pesce d'aprile;http://www.youtube.com/watch?v=eXmzPqE4QQ8
+#3;Una casa molto carina;http://www.youtube.com/watch?v=Ht2JUSs7Jbo
+#3;Palla Pallina;http://www.youtube.com/watch?v=fPBOoDK3jrg
+#3;La bella tartaruga;http://www.youtube.com/watch?v=0Gkh6U_sfDU
+#3;La danza del serpente;http://www.youtube.com/watch?v=vdOkdIOl8oM
+#3;Il pulcino pio;http://www.youtube.com/watch?v=QDRKOSHiCWk
+#3;Il valzer del moscerino;http://www.youtube.com/watch?v=SiPqNJAOcqo
+#3;Casetta in Canada;http://www.youtube.com/watch?v=OzbvsFvTGFo
+#3;Sei forte papa';http://www.youtube.com/watch?v=0z-X4REf3H6WnQ
+#3;Il bruco tricolore;http://www.youtube.com/watch?v=NkUMi_jgnTA
+#3;Ci vuole un fiore;http://www.youtube.com/watch?v=UG_8b6WJqvI
+#3;Il ballo del Qua Qua;http://www.youtube.com/watch?v=YvAwmF8Y7Ok
+#3;Il ballo di Simone;http://www.youtube.com/watch?v=Tcb_P5yQ5qU
+#3;Oh che bel Castello;http://www.youtube.com/watch?v=BRe4MFCKwRI
+
+#
+#ninna nanna
+#
+4;Stella Stellina;http://www.youtube.com/watch?v=4fESu7FwT0w;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/ninananna1.jpg
+4;Ninna nanna del chicco di caffe';http://www.youtube.com/watch?v=vH_To7D1BZY;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/ninananna2.jpg
+4;Ninna nanna dei bimbi;http://www.youtube.com/watch?v=6euMQmLOKh8;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/ninananna3.jpg
+4;Canzoncina della buona notte;http://www.youtube.com/watch?v=ppTCJMa5Cxs;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/ninananna4.jpg
+4;Ninna nanna di pace;http://www.youtube.com/watch?v=W9gSBDMLANs;http://damicolo1.azurewebsites.net/100FiabeECanzoncine/ninananna5.jpg
+

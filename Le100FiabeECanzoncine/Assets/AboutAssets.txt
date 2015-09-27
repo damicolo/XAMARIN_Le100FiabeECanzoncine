@@ -17,3 +17,103 @@ public class ReadAsset : Activity
 Additionally, some Android functions will automatically load asset files:
 
 Typeface tf = Typeface.CreateFromAsset (Context.Assets, "fonts/samplefont.ttf");
+
+#
+#Fiabe
+#
+#1;Cappuccetto Rosso, Il gatto con gli stivali, Biancanenve e i sette nani, Il lupo e i sette capretti, Aladino e la lampada, Cenerentola, Hansel e Gretel, La bella addormentata;http://www.youtube.com/watch?v=j0qVhR9_NhM
+#1;Il brutto anatroccolo, I tre porcellini, Ali Baba' e i quaranta ladroni, Pollicino, La bella e la bestia, Il soldatino di piombo, I sette corvi, Barba blu;http://www.youtube.com/watch?v=RvNAwcdQ_MY
+#1;Pelle d'asino, Gli abiti nuovi del granduca, I musicisti di Brema, Il piffero magico, Abu Ker e Abu Fir, Il pesciolino d'oro, I fiori della piccola Ida, Ls casa nella foresta;http://www.youtube.com/watch?v=6kNBFBnnXrY
+#1;I tre nanetti nel bosco, Il libricino magico, Il nano tremolino, I cigni selvatici, Sette in un colpo, Il principe rospo, Tre musicisti, L'acciarino magico;http://www.youtube.com/watch?v=OY-K7sv0IFs
+#1;La piccola guardiana d'oche, Pollicina, Fata piumetta, L'uccello d'oro, Il tesoro dei tre fratelli, Giacomino e il fagiolo, Il pricipe kamar e la principessa Budur, Raperonzolo;http://www.youtube.com/watch?v=YFIOMM2ImIw
+#1;Re mentone, L'usignolo, Il capriaio e la figlia del re, I tre capelli dell'orco, I tre cedri, Il serpe bianco, L'acqua della vita, La principessa incantata;http://www.youtube.com/watch?v=lV4PATvAmyc
+1;Cappuccetto Rosso, Il gatto con gli stivali, Biancanenve e i sette nani, Il lupo e i sette capretti, Aladino e la lampada, Cenerentola, Hansel e Gretel, La bella addormentata;http://www.youtube.com/watch?v=UKY7vW_-DiM
+1;Il brutto anatroccolo, I tre porcellini, Ali Baba' e i quaranta ladroni, Pollicino, La bella e la bestia, Il soldatino di piombo, I sette corvi, Barba blu;http://www.youtube.com/watch?v=44l1_5GrVNs
+1;Pelle d'asino, Gli abiti nuovi del granduca, I musicisti di Brema, Il piffero magico, Abu Ker e Abu Fir, Il pesciolino d'oro, I fiori della piccola Ida, La casa nella foresta;http://www.youtube.com/watch?v=zFyUJlLQbfg
+1;I tre nanetti nel bosco, Il libricino magico, Il nano tremolino, I cigni selvatici, Sette in un colpo, Il principe rospo, Tre musicisti, L'acciarino magico;http://www.youtube.com/watch?v=rBnZAxSA43Y
+1;La piccola guardiana d'oche, Pollicina, Fata piumetta, L'uccello d'oro, Il tesoro dei tre fratelli, Giacomino e il fagiolo, Il pricipe kamar e la principessa Budur, Raperonzolo;http://www.youtube.com/watch?v=2NJLSluMISY
+1;Re mentone, L'usignolo, Il capriaio e la figlia del re, I tre capelli dell'orco, I tre cedri, Il serpe bianco, L'acqua della vita, La principessa incantata;http://www.youtube.com/watch?v=a2s0Av6W8gk
+#
+#zecchino
+#
+2;La tartaruga sprint;http://www.youtube.com/watch?v=PDwBq4AZTFU
+2;Torero Camomillo;http://www.youtube.com/watch?v=QupTJJmElco
+2;Il pulcino ballerino;http://www.youtube.com/watch?v=HDxy-UorXDY
+2;La sveglia birichina;http://www.youtube.com/watch?v=RFsT-kLpgls
+2;Non lo faccio piu';http://www.youtube.com/watch?v=KUFsIivybPw
+#2;Il gatto puzzolone;http://www.youtube.com/watch?v=7fLrGHViNvU
+2;44 Gatti;http://www.youtube.com/watch?v=UL6toX3fAuo
+2;Le Tagliatelle Di Nonna Pina;http://www.youtube.com/watch?v=HAzbZbjztbc
+#2;Il Katalicammello;http://www.youtube.com/watch?v=Mo1X0AmVzCA
+2;Popoff;http://www.youtube.com/watch?v=wxcrF3ywAwM
+#2;Il topo Zorro;http://www.youtube.com/watch?v=MkydKPVfrsY
+2;Ho Visto Un Re;http://www.youtube.com/watch?v=C0LGh_eQRHk
+2;Il Lungo Il Corto E Il Pacioccone;http://www.youtube.com/watch?v=VaE_0QVM93g
+2;Dagli una spinta;http://www.youtube.com/watch?v=bpxDJHczQqY
+2;Metti la canottiera;http://www.youtube.com/watch?v=5DvM-G1D_t8
+#2;Un punto di vista strambo;http://www.youtube.com/watch?v=K2LOLmjPOlM
+#2;Rokko cavallo brocco;http://www.youtube.com/watch?v=FmJVgUEL_kA
+2;Il gatto mascherato;http://www.youtube.com/watch?v=B7eem3W2i8U
+2;La lumaca Elisabetta;http://www.youtube.com/watch?v=6-Qic9EyWac
+2;La Banda Sbanda;http://www.youtube.com/watch?v=wNrlT8mo02s
+2;La Tarantella della Mozzarella;http://www.youtube.com/watch?v=s7OcC_FJpAA
+2;Una forchetta chiamata Giulietta;http://www.youtube.com/watch?v=wCHRAJcghgA
+2;La torta di pere e cioccolato;http://www.youtube.com/watch?v=c9yKkvrB7q4
+2;Il pistolero;http://www.youtube.com/watch?v=wtC63t1kfJs
+#2;Messer Galileo;http://www.youtube.com/watch?v=GlCxBZ21-Dg
+2;Ciribiricoccola;http://www.youtube.com/watch?v=YgwJGEyEOQA
+#2;Il Cuoco Pasticcione;http://www.youtube.com/watch?v=xAm3UITX_kU
+#2;Il Bullo Citrullo;http://www.youtube.com/watch?v=tdUVppef4KU
+#2;Il Drago Raffreddato;http://www.youtube.com/watch?v=2Gjw5aqW010
+#2;L'Amico Mio Fantasma;http://www.youtube.com/watch?v=fneYSRMdglI
+2;Fammi crescere i denti davanti;http://www.youtube.com/watch?v=sCtOxzouHHA
+2;Volevo un gatto Nero;http://www.youtube.com/watch?v=OejanHT5HxQ
+2;Il caffe' della peppina;http://www.youtube.com/watch?v=4qNHLEs04TA
+#2;Il coocodrillo come fa?;http://www.youtube.com/watch?v=mHXlgHptunQ
+#
+#canzoncine
+#
+#3;La Giungle degli animali;https://www.youtube.com/watch?v=mSm30seRYtk
+#3;Ciao Papa';https://www.youtube.com/watch?v=K3e2gSM_brQ
+3;L'elefante si dondolava;https://www.youtube.com/watch?v=sKohBCDbj6Q
+3;Giro giro tondo;https://www.youtube.com/watch?v=2WiurH0u514
+3;Nella Vecchia Fattoria;https://www.youtube.com/watch?v=V9UZoIbTmCA
+#3;La bella Lavanderina;https://www.youtube.com/watch?v=-MbhlBdKPQY
+3;Se sei Felice;https://www.youtube.com/watch?v=8zdpyb1hFq4
+3;Fra' Martino Campanaro;https://www.youtube.com/watch?v=3uxtsaH5Xts
+3;La Canzone dei Numeri 1 2 3;https://www.youtube.com/watch?v=9CfIE6edN5o
+3;Canzone dell'Alfabeto ABC;https://www.youtube.com/watch?v=XO9TZ2Y-96I
+3;Carletto;https://www.youtube.com/watch?v=OBaxvXZktjo
+3;Diamo la caccia al bruco;http://www.youtube.com/watch?v=SIrwBJYyvXM
+3;Whisky Il Ragnetto;https://www.youtube.com/watch?v=8RDuDo3l4Ic
+#3;Il cowboy Piero;http://www.youtube.com/watch?v=99hn8NAjTLo
+#3;L'elefante con le ghette;https://www.youtube.com/watch?v=jhzDhmF189s
+#opzionali esterni
+3;La Canzone di Cappuccetto Rosso;http://www.youtube.com/watch?v=HAHc0HBPgN4
+#3;La Canzone delle vocali A E I O U;http://www.youtube.com/watch?v=4RGi7fGXpdE
+#3;Il pesce d'aprile;http://www.youtube.com/watch?v=eXmzPqE4QQ8
+#3;Una casa molto carina;http://www.youtube.com/watch?v=Ht2JUSs7Jbo
+#3;Palla Pallina;http://www.youtube.com/watch?v=fPBOoDK3jrg
+#3;La bella tartaruga;http://www.youtube.com/watch?v=0Gkh6U_sfDU
+#3;La danza del serpente;http://www.youtube.com/watch?v=vdOkdIOl8oM
+#3;Il pulcino pio;http://www.youtube.com/watch?v=QDRKOSHiCWk
+#3;Il valzer del moscerino;http://www.youtube.com/watch?v=SiPqNJAOcqo
+#3;Casetta in Canada;http://www.youtube.com/watch?v=OzbvsFvTGFo
+#3;Sei forte papa';http://www.youtube.com/watch?v=0z-X4REf3H6WnQ
+#3;Il bruco tricolore;http://www.youtube.com/watch?v=NkUMi_jgnTA
+#3;Ci vuole un fiore;http://www.youtube.com/watch?v=UG_8b6WJqvI
+#3;Il ballo del Qua Qua;http://www.youtube.com/watch?v=YvAwmF8Y7Ok
+#3;Il ballo di Simone;http://www.youtube.com/watch?v=Tcb_P5yQ5qU
+#3;Oh che bel Castello;http://www.youtube.com/watch?v=BRe4MFCKwRI
+
+#
+#ninna nanna
+#
+#4;Ninna Nanna Ninna Oh;http://www.youtube.com/watch?v=ACCKVO6izBA
+#4;Ninna Nanna di Fra' Simon;http://www.youtube.com/watch?v=4AySf8EDbkY
+4;Stella Stellina;http://www.youtube.com/watch?v=4fESu7FwT0w
+4;Ninna nanna del chicco di caffe';http://www.youtube.com/watch?v=vH_To7D1BZY
+4;Ninna nanna dei bimbi;http://www.youtube.com/watch?v=6euMQmLOKh8
+4;Canzoncina della buona notte;http://www.youtube.com/watch?v=ppTCJMa5Cxs
+#4;Ninna nanna di Brahms;http://www.youtube.com/watch?v=XPlABlPY3rE
+4;Ninna nanna di pace;http://www.youtube.com/watch?v=W9gSBDMLANs

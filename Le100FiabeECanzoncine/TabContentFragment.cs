@@ -43,11 +43,9 @@ namespace FiabeSenzaTempo
 			var view = inflater.Inflate (Resource.Layout.TabContent, container, false);
 			m_theView = view;
 
-			int counter = 0;
 			foreach (var current in MainActivity.m_theVideos) {
-				if (counter % 3 == tabIndex)
+				if (current.Page == tabIndex.ToString())
 					m_theVideos.Add (current);
-				counter++;
 			}
 
 			// set the list and adapter

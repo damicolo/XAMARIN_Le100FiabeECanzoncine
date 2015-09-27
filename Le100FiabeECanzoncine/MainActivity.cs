@@ -22,7 +22,7 @@ namespace FiabeSenzaTempo
 	[Activity (Label = "Le 100 Fiabe e Canzoncine", MainLauncher = true, Icon = "@drawable/favolesenzatempo", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
-		private const string m_playlist = "http://damicolo1.azurewebsites.net/FiabeSenzaTempo/FavoleSenzaTempoYoutube.txt";
+		private const string m_playlist = "http://damicolo1.azurewebsites.net/100FiabeECanzoncine/FavoleSenzaTempoYoutube.txt";
 		private ListView m_myList;
 		private FavoleListViewAdapter m_adapter;
 		public static List<videoItem> m_theVideos = new List<videoItem>();
@@ -51,11 +51,12 @@ namespace FiabeSenzaTempo
 			string[] VideoList = theFileList.Split (new char[] { ','});
 			List<string> myData = new List<string> ();
 			foreach (string s in VideoList) {
+				if (s.StartsWith("#")) continue;
 				string[] elements = s.Split (new char[]{ ';' });
-				if (elements.Length < 3)
+				if (elements.Length < 4)
 					continue;
 
-				videoItem tempItem = new videoItem (){ Title = elements [1], URL = elements [2], ImageURL = elements [3] };
+				videoItem tempItem = new videoItem (){Page = elements[0], Title = elements [1], URL = elements [2], ImageURL = elements [3] };
 				//tempItem.Image = await GetImageFromUrl(tempItem.ImageURL);
 				m_theVideos.Add (tempItem);
 				myData.Add (m_theVideos[m_theVideos.Count-1].Title);
@@ -74,9 +75,10 @@ namespace FiabeSenzaTempo
 				
 
 
-			AddTab ("Audio", 0, Resource.Drawable.favolesenzatempo,  new TabContentFragment(0) );
-			AddTab ("Video", 1, Resource.Drawable.favolesenzatempo,  new TabContentFragment(1) );
-			AddTab ("Photo", 2, Resource.Drawable.favolesenzatempo,  new TabContentFragment(2) );
+			AddTab ("Fiabe", 0, Resource.Drawable.favolesenzatempo,  new TabContentFragment(0) );
+			AddTab ("Zecchino", 1, Resource.Drawable.favolesenzatempo,  new TabContentFragment(1) );
+			AddTab ("Canzoncine", 2, Resource.Drawable.favolesenzatempo,  new TabContentFragment(2) );
+			AddTab ("NinnaNanna", 3, Resource.Drawable.favolesenzatempo,  new TabContentFragment(3) );
 
 
 

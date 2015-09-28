@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textViewTitle"
         android:gravity="center_vertical"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center_vertical"
         android:textSize="18dp"
         android:textColor="#ffffffff"
         android:background="#ff1b7390" />

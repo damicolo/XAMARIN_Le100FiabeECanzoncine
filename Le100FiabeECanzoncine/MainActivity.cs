@@ -97,7 +97,6 @@ namespace FiabeSenzaTempo
 			tab.SetText (tabText);
 			//tab.SetIcon (iconResourceId);
 			((TabContentFragment)fragment).SetTabIndex (tabindex);
-			// must set event handler for replacing tabs tab
 			tab.TabSelected += delegate(object sender, ActionBar.TabEventArgs e) {
 				e.FragmentTransaction.Replace(Resource.Id.fragmentContainer, fragment);
 			};
@@ -121,9 +120,7 @@ namespace FiabeSenzaTempo
 				Bitmap bitmap = BitmapFactory.DecodeFile(imageFile.AbsolutePath);
 				return bitmap;
 			}
-
-
-
+				
 			if (!fileExists) {
 				using (var client = new HttpClient ()) {
 					var msg = await client.GetAsync (url);

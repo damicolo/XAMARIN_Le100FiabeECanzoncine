@@ -43,6 +43,7 @@ namespace FiabeSenzaTempo
 			var view = inflater.Inflate (Resource.Layout.TabContent, container, false);
 			m_theView = view;
 
+			m_theVideos = new List<videoItem>();
 			foreach (var current in MainActivity.m_theVideos) {
 				if (current.Page == tabIndex.ToString())
 					m_theVideos.Add (current);
@@ -60,7 +61,7 @@ namespace FiabeSenzaTempo
 		void M_myList_ItemClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
 			System.Console.WriteLine ("M_myList_ItemClick " + e.Position.ToString ());
-			videoItem sellectedItem = MainActivity.m_theVideos [e.Position];
+			videoItem sellectedItem = m_theVideos [e.Position];
 			string videoID = sellectedItem.URL.Split (new char[] { '=' })[1];
 			Intent intent = new Intent(((View)m_theView).Context, typeof(TheViewViewer));
 			intent.PutExtra ("videoID", videoID);

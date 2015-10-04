@@ -21,6 +21,7 @@ namespace FiabeSenzaTempo
 		private FavoleListViewAdapter m_adapter;
 		View m_theView;
 		List<videoItem> m_theVideos = new List<videoItem>();
+		private DateTime m_lastItemClick = DateTime.Now;
 
 		public TabContentFragment(int index)
 		{
@@ -60,6 +61,14 @@ namespace FiabeSenzaTempo
 		}
 		void M_myList_ItemClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
+			/*
+			TimeSpan diff = DateTime.Now.Subtract(m_lastItemClick);
+			m_lastItemClick = DateTime.Now;
+			if (diff.CompareTo (TimeSpan.FromSeconds (2)) < 0) 
+			{				
+				return;				
+			}
+			*/
 			System.Console.WriteLine ("M_myList_ItemClick " + e.Position.ToString ());
 			videoItem sellectedItem = m_theVideos [e.Position];
 			string videoID = sellectedItem.URL.Split (new char[] { '=' })[1];

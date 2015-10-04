@@ -33,8 +33,6 @@ namespace FiabeSenzaTempo
 			SetContentView (Resource.Layout.Main);
 			this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
 
-
-
 			// prevent screen lock; require WAKE_LOCK permission in the manifest
 			this.Window.SetFlags(WindowManagerFlags.KeepScreenOn, WindowManagerFlags.KeepScreenOn);
 
@@ -73,16 +71,11 @@ namespace FiabeSenzaTempo
 				m_theVideos [i].Image = myImages [i];
 			}
 				
-
-
+		
 			AddTab ("Fiabe", 1, Resource.Drawable.favolesenzatempo,  new TabContentFragment(1) );
 			AddTab ("Zecchino", 2, Resource.Drawable.favolesenzatempo,  new TabContentFragment(2) );
 			AddTab ("Canzoncine", 3, Resource.Drawable.favolesenzatempo,  new TabContentFragment(3) );
 			AddTab ("NinnaNanna", 4, Resource.Drawable.favolesenzatempo,  new TabContentFragment(4) );
-
-
-
-
 
 
 			// advertising setup
@@ -142,37 +135,6 @@ namespace FiabeSenzaTempo
 			}
 			return null;
 		}
-
-		void M_myList_ItemClick (object sender, AdapterView.ItemClickEventArgs e)
-		{
-			System.Console.WriteLine ("M_myList_ItemClick " + e.Position.ToString ());
-			videoItem sellectedItem = m_theVideos [e.Position];
-			string videoID = sellectedItem.URL.Split (new char[] { '=' })[1];
-
-			Intent intent = new Intent(this, typeof(TheViewViewer));
-			intent.PutExtra ("videoID", videoID);
-			this.StartActivity (intent);
-
-
-			/*
-			((LinearLayout.LayoutParams)videoView.LayoutParameters).Weight = 40f;
-			try
-			{
-				YouTubeUri theURI = await  YouTube.GetVideoUriAsync(videoID,YouTubeQuality.Quality720P);
-				var uri = Android.Net.Uri.Parse(theURI.Uri.AbsoluteUri);
-				videoView.SetVideoURI(uri);
-				videoView.Start ();
-
-				m_videoPregressTimer.Enabled = true;
-				m_videoPregressTimer.Start();
-			}
-			catch (Exception ex) 
-			{
-				Console.WriteLine (ex.ToString ());
-			}
-*/
-		}
-
 
 		protected override void OnPause()
 		{

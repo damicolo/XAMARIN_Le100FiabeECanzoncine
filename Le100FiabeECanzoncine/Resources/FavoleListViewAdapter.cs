@@ -16,6 +16,7 @@ namespace FiabeSenzaTempo
 		private View ThisRow;
 		private ImageView theImage;
 		private ListView m_theListView;
+		private TextView theTitle;
 
 		public FavoleListViewAdapter (Context context, List<videoItem> theVideos, ListView theListView)
 		{
@@ -35,11 +36,12 @@ namespace FiabeSenzaTempo
 			ThisRow = convertView;
 			if (ThisRow == null) {
 				ThisRow = LayoutInflater.From(m_context).Inflate(Resource.Layout.FavoleListeViewItem,null,false);
+				theTitle = (TextView)ThisRow.FindViewById (Resource.Id.textViewTitle);
+				theTitle.Click += (sender, args) => m_theListView.PerformItemClick(ThisRow, position, GetItemId(position));
 			}
-			TextView theTitle = (TextView)ThisRow.FindViewById (Resource.Id.textViewTitle);
+			//TextView theTitle = (TextView)ThisRow.FindViewById (Resource.Id.textViewTitle);
+			theTitle = (TextView)ThisRow.FindViewById (Resource.Id.textViewTitle);
 			theTitle.Text = m_theVideos [position].Title.ToUpper();
-			theTitle.Click += (sender, args) => m_theListView.PerformItemClick(ThisRow, position, GetItemId(position));
-
 			theImage = ThisRow.FindViewById<ImageView>(Resource.Id.imageViewTitle);
 			theImage.SetImageBitmap(m_theVideos [position].Image);
 
